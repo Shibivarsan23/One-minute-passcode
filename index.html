@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pc login</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <h1>Login Page</h1>
+        </div>
+        <div class="inputs">
+            <div class="user">
+                <p>Username : </p>
+                <input type="text" id="user">
+                <div style="display: flex; flex-direction: column;">
+                    <button id="ip_pass" onclick="process(12)">sent</button>
+                    <button id="ip_pass" onclick="process(4)">Emergency</button>
+                </div>
+            </div>
+            <div class="pass">
+                <p>Password : </p>
+                <input type="text" id="pass">
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="sub" onclick="check()">Submit</button>
+            <button id="res" onclick="reset()">Reset</button>
+        </div>
+    </div>
+    <script src="./server.js"></script>
+</body>
+</html>

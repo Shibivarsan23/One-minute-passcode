@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    /* border: 1px solid black; */
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('pww.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.inputs{
+    height: 30%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.user{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.user div{
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 20%;
+}
+.user button{
+    height: 30px;
+    width: 90%;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(124, 17, 17);
+    cursor: pointer;
+}
+.pass{
+    height: 40%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+p{
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input{
+    height: 30px;
+    width: 250px;
+    font-size: medium;
+    padding-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    background-color: rgb(232, 232, 232);
+    outline: none;
+    border: none;
+}
+
+#g_pass{
+    width: 50px;
+}
+
+.buttons{
+    height: 10%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#sub, #res{
+    height: 55%;
+    width: 40%;
+    border-radius: 5px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: rgb(124, 17, 17);
+    cursor: pointer;
+}
+
+h1{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
